@@ -104,7 +104,7 @@ public class LibraryOfKarishma {
 
 			if (optionSelected == 1) {
 
-				System.out.println("Please select book from below list \n: " + booksMap);
+				System.out.println("Please select book from below list : \n" + booksMap);
 				System.out.println("Please Enter Book you want to issue :");
 				String bookName = stringSc.nextLine();
 
@@ -129,7 +129,7 @@ public class LibraryOfKarishma {
 			} else if (optionSelected == 2) {
 
 				System.out.println("Please enter the book you want to return");
-				System.out.println(objLibraryUser.getbooks());
+				System.out.println("There are folling books in your Name : \n"+objLibraryUser.getbooks());
 				String returnBook = stringSc.nextLine();
 				System.out.println("Please Enter Date : ");
 				String bookReturnDate = stringSc.nextLine();
